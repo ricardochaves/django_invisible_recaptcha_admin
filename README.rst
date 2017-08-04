@@ -23,6 +23,16 @@ Add the app ``django_invisible_recaptcha_admin`` to ``settings.py``
     )
 
 
+Add to ``urls.py`` from:
+
+    from django_invisible_recaptcha_admin.admin import my_admin
+
+    urlpatterns = [
+        #url(r'^admin/', include(admin.site.urls)),
+        
+        url(r'^admin/', include(my_admin.urls)),
+    ]
+
 
 ###############################
 To Do

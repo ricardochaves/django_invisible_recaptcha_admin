@@ -34,6 +34,14 @@ Add to ``urls.py`` from:
     ]
 
 
+Add `keys <https://www.google.com/recaptcha/>`_ in ``settings.py``
+
+    NORECAPTCHA_SITE_KEY = 'SITEKEY'
+    
+    NORECAPTCHA_SECRET_KEY = 'SECRET_KEY'
+
+
+
 ###############################
 To Do
 ###############################

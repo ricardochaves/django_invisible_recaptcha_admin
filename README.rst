@@ -41,6 +41,21 @@ Add `keys <https://www.google.com/recaptcha/>`_ in ``settings.py``
     NORECAPTCHA_SECRET_KEY = 'SECRET_KEY'
 
 
+Now, in your ``admin.py`` you should use like this:
+
+
+    from django_invisible_recaptcha_admin.admin import my_admin
+    
+    ...
+    
+    class TODOAdmin(admin.ModelAdmin):
+    
+        list_display = ['todo']
+        
+    ...
+    
+    my_admin.register(TODO, TODOAdmin) 
+    
 
 ###############################
 To Do

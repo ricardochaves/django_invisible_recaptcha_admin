@@ -11,7 +11,7 @@ EXCLUDE_FROM_PACKAGES = ['.vscode']
 
 setup(
     name='django_invisible_recaptcha_admin',
-    version='0.1.1-alpha',
+    version='1.0.0',
     url='https://github.com/ricardochaves/django_invisible_recaptcha_admin',
     author='Ricardo Baltazar Chaves',
     author_email='ricardobchaves6@gmail.com',
@@ -25,7 +25,7 @@ setup(
         'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
         'Framework :: Django',
-        'Framework :: Django :: 1.10',
+        'Framework :: Django :: 2.0',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License', 
         'Operating System :: OS Independent',

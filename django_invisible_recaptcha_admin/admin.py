@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.contrib.admin.sites import AdminSite
-from .forms import *
+from .forms import MyAdminLoginForm
 from django.contrib.auth.models import User, Group
 
 # Register your models here.

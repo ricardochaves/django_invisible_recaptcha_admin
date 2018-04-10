@@ -1,7 +1,7 @@
 {% extends "admin/base_site.html" %}
 {% load i18n static %}
 
-{% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% static "admin/css/login.css" %}" />
+{% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% static "admin/css/login.css" %}">
 {{ form.media }}
 {% endblock %}
 
@@ -49,9 +49,9 @@
   <div class="form-row">
     {{ form.password.errors }}
     {{ form.password.label_tag }} {{ form.password }}
-    <input type="hidden" name="next" value="{{ next }}" />
+    <input type="hidden" name="next" value="{{ next }}">
   </div>
-    {{ form.captcha }}
+  {{ form.captcha }}
   {% url 'admin_password_reset' as password_reset_url %}
   {% if password_reset_url %}
   <div class="password-reset-link">
@@ -59,7 +59,7 @@
   </div>
   {% endif %}
   <div class="submit-row">
-    <label>&nbsp;</label><input id="submit-button" type="submit" value="{% trans 'Log in' %}" />
+    <label>&nbsp;</label><input id="submit-button" type="submit" value="{% trans 'Log in' %}">
   </div>
 </form>
 
@@ -72,5 +72,4 @@
         document.getElementById("login-form").submit();
     }
 </script>
-
 {% endblock %}

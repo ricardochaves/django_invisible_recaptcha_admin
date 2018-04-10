@@ -20,11 +20,12 @@ INSTALLED_APPS = (
 Add to `urls.py` from:
 ```
 from django_invisible_recaptcha_admin.admin import my_admin
+from django.urls import path
 
 urlpatterns = [
     #url(r'^admin/', include(admin.site.urls)),
 
-    url(r'^admin/', include(my_admin.urls)),
+    path('admin/', my_admin.urls),
 ]
 ```
 

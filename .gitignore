@@ -9,3 +9,4 @@
 .idea
 /django_invisible_recaptcha_admin.egg-info/
 /build/
+.venv

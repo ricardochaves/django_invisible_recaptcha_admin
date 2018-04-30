@@ -1,4 +1,6 @@
 # Django Invisible Recaptcha Admin
+
+[![PyPI version](https://badge.fury.io/py/django-invisible-recaptcha-admin.svg)](https://badge.fury.io/py/django-invisible-recaptcha-admin)
 ## How do I get set up?
 
 Instale usando PyPI:
